@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Resume</class>
+ <widget class="QDialog" name="Resume">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>774</width>
+    <height>976</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Resume</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="name">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>2</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="text">
+      <string>Smit Shivcharan Patil</string>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::AutoText</enum>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="linkGithub">
+       <property name="text">
+        <string>Github</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="linkLinkedIn">
+       <property name="text">
+        <string>LinkedIn</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="linkBlog">
+       <property name="text">
+        <string>Blog</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QLabel" name="main">
+     <property name="font">
+      <font>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>## Experience
+
+
+1. Worked on GCompris software in google codein 2018. Was selected as Runner Up
+
+    Used Qt, QML, JavaScript
+
+1. Create Examination System for collage event
+
+    Used Java, Php, PostgreSQL
+
+1. Writing code as hobby since 2017
+
+## Projects
+
+ - Exam Automation System
+
+ - Multiple unfinished projects and games as hobby
+
+## Education
+
+- Currently enrolled in 3rd Year Engineering in Information Technology at Sinhgad College of Engineering Vadgaon Budruk, Pune
+
+ - Diploma in Information Technology From MSBTE
+
+   92.88% Aggregate
+
+ - SSC from MSBSHSE
+
+   85.40%
+
+## Skills
+
+- Language
+    - Programming
+        - **C++**, **Rust**, C, Python, Java, TypeScript,
+         JavaScript, C#, PHP, POSIX Shell
+        - Can learn any programming language
+
+    - UI/Markup
+        - **QML**, HTML, CSS, MarkDown
+     
+- Technologies/Frameworks Currently conformable with
+    - Qt Widgets, Qt Quick, GTK, Tokio, Actix-Web, Vue, OpenGL, SDL2
+    - Can quickly adapt new stack
+
+- Database
+    - **PostgreSQL**, 
+    , MySQL/MariaDB, SQLite, MongoDB
+
+- Linux
+    - Shell Scripting
+    - App Development
+    - Using ArchLinux as main OS since 2017
+
+## Languages
+
+ - English - proficient
+
+ - Marathi - Native
+
+ - Hindi - Proficient
+
+ - Japanese - Basic
+
+
+#### Last Updated on Jul 24 2021
+</string>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::MarkdownText</enum>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
